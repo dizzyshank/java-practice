@@ -21,5 +21,9 @@ public class Calculation {
         System.out.println(d); //double型の変数にfloat型を代入
         int age = (int)3.2; //強制的に型変換 キャスト演算子
         System.out.println(age);
+        double d2 = 8.5 / 2; //2(int型)を2.0(double型)に変換
+        long l = 5 + 2L; //5(int型)を5L(long型)に変換
+        System.out.println(d2);
+        System.out.println(l);
     }
 }
