@@ -19,5 +19,7 @@ public class Calculation {
         double d = f;
         System.out.println(f); //float型の変数にint型を代入
         System.out.println(d); //double型の変数にfloat型を代入
+        int age = (int)3.2; //強制的に型変換 キャスト演算子
+        System.out.println(age);
     }
 }
