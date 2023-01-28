@@ -27,5 +27,9 @@ public class Calculation {
         System.out.println(l);
         String msg = "私の年齢は" + 23; //23(int型)が"23"(String型)に変換されて連結される
         System.out.println(msg);
+        String name = "ほんま";
+        System.out.print("私の名前は");
+        System.out.print(name);
+        System.out.print("です。");
     }
 }
