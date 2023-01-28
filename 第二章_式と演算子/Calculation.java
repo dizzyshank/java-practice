@@ -36,5 +36,7 @@ public class Calculation {
         String age2 = "27";
         int n = Integer.parseInt(age2);
         System.out.println("来年" + (n+1) + "歳になる。");
+        int r = new java.util.Random().nextInt(60); //乱数を発生させる命令
+        System.out.println("あなたは" + r + "歳");
     }
 }
