@@ -31,5 +31,7 @@ public class Calculation {
         System.out.print("私の名前は");
         System.out.print(name);
         System.out.print("です。");
+        int m = Math.max(a, b);
+        System.out.println("比較実験:" + a + "と" + b + "とで大きい方は、、" + m);
     }
 }
