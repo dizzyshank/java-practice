@@ -25,5 +25,7 @@ public class Calculation {
         long l = 5 + 2L; //5(int型)を5L(long型)に変換
         System.out.println(d2);
         System.out.println(l);
+        String msg = "私の年齢は" + 23; //23(int型)が"23"(String型)に変換されて連結される
+        System.out.println(msg);
     }
 }
