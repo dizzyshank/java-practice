@@ -9,6 +9,11 @@ public class Calculation {
         b = a + 5;
         System.out.println(a);
         System.out.println(b);
-        System.out.println("私の好きな記号は二重引用符(\")です");
+        System.out.println("私の好きな記号は二重引用符(\")です"); //エスケープシーケンスについて
+        System.out.println("¥1200");
+        int c;
+        c = 100;
+        c++;
+        System.out.println(c); //インクリメント演算子について
     }
 }
