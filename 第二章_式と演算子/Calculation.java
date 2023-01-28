@@ -34,7 +34,7 @@ public class Calculation {
         int m = Math.max(a, b);
         System.out.println("比較実験:" + a + "と" + b + "とで大きい方は、、" + m);
         String age2 = "27";
-        int n = Integer.parseInt(age2);
+        int n = Integer.parseInt(age2); //String型をint型に変換
         System.out.println("来年" + (n+1) + "歳になる。");
         int r = new java.util.Random().nextInt(60); //乱数を発生させる命令
         System.out.println("あなたは" + r + "歳");
@@ -43,6 +43,5 @@ public class Calculation {
         System.out.println("あなたの年齢を入力してください");
         int age3 = new java.util.Scanner(System.in).nextInt(); //キーボードから１つの整数の入力を受け付ける
         System.out.println("ようこそ、" + age3 + "歳の" + name1 + "さん");
-
     }
 }
