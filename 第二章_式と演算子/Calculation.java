@@ -15,5 +15,9 @@ public class Calculation {
         c = 100;
         c++;
         System.out.println(c); //インクリメント演算子について
+        float f = 3;
+        double d = f;
+        System.out.println(f); //float型の変数にint型を代入
+        System.out.println(d); //double型の変数にfloat型を代入
     }
 }
