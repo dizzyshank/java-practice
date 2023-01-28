@@ -9,10 +9,8 @@ public class Main {
             System.out.println("DVDを見ます");
         }
 
-        boolean doorClose = true;
-        while (doorClose == true) {
-            System.out.println("ノックする");
-            System.out.println("1分待つ");
-        }
+       for (int i = 0; i < 10; i++){
+        System.out.println("こんにちは");
+       }
     }
 }
