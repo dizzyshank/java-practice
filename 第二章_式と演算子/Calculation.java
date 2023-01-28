@@ -33,5 +33,8 @@ public class Calculation {
         System.out.print("です。");
         int m = Math.max(a, b);
         System.out.println("比較実験:" + a + "と" + b + "とで大きい方は、、" + m);
+        String age2 = "27";
+        int n = Integer.parseInt(age2);
+        System.out.println("来年" + (n+1) + "歳になる。");
     }
 }
