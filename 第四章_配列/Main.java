@@ -10,5 +10,17 @@ public class Main {
        int avg = sum / scores.length;
        System.out.println("合計点：" + sum);
        System.out.println("平均点：" + avg);
+
+        //DNAの記号をランダムに表示する
+    int[] seq = new int[10];
+
+    for (int i = 0; i < seq.length; i++) {
+        seq[i] = new java.util.Random().nextInt(4);
+    }
+
+    for (int i = 0; i < seq.length; i++) {
+        char[] base = {'A', 'G', 'C', 'T'};
+        System.out.print(base[seq[i]] + " ");
+    }
     }
 }
