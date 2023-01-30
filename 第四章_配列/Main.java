@@ -39,5 +39,15 @@ public class Main {
             System.out.println(value);
          }
 
+         //二次元配列
+         int[][] scores3 = new int[2][3];
+         scores3[0][0] = 40;
+         scores3[0][1] = 50;
+         scores3[0][2] = 60;
+         scores3[1][0] = 80;
+         scores3[1][1] = 60;
+         scores3[1][2] = 70;
+         System.out.println(scores3[1][1]);
+
     }
 }
