@@ -1,4 +1,4 @@
-package 第二章_式と演算子;
+package 第２章_式と演算子;
 
 //コード2-1 変数宣言の文と計算の文
 public class Calculation {

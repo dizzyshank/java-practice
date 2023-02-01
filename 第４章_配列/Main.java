@@ -1,4 +1,4 @@
-package 第四章_配列;
+package 第４章_配列;
 
 public class Main {
     public static void main(String[] args){

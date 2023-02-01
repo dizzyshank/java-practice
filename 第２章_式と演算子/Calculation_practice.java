@@ -1,4 +1,4 @@
-package 第二章_式と演算子;
+package 第２章_式と演算子;
 
 public class Calculation_practice {
     public static void main(String[] args){
